@@ -54,7 +54,7 @@ public class PlayerControler : MonoBehaviour
         }
         animator.SetFloat("Look X", lookDirection.x);
         animator.SetFloat("Look Y", lookDirection.y);
-        animator.SetFloat("speed", move.magnitude);
+        animator.SetFloat("Speed", move.magnitude);
 
         if(isInvincible)
         {
